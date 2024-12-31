@@ -9,7 +9,7 @@ const server = express()
 server.use(cors())
 server.use(express.json())
 server.use(route)
-server.use('/uploads',express.static('./uploads'))
+server.use('/uploads',express.static('./Uploads'))
 
 const PORT = 3000 || process.env.PORT
 
